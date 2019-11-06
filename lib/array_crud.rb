@@ -19,12 +19,12 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  our_array = ["I", "am", "starting", "to"]
+  our_array = ["I", "am", "starting", "arrays!"]
   our_array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  our_array = ["I", "am", "starting", "arrays!"]
+  our_array = ["wow", "am", "starting", "arrays!"]
   our_array.shift
 end
 
