@@ -20,36 +20,31 @@ end
 
 def remove_element_from_end_of_array(array)
   our_array = ["I", "am", "starting", "to"]
-  our_element = [element]
   our_array.pop
 end
 
 def remove_element_from_start_of_array(array)
   our_array = ["I", "am", "starting", "to"]
-  our_element = [element]
   our_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
   our_array = ["I", "am", "starting", "to"]
-  our_element = [element]
   our_array[1]
 end
 
 def retrieve_first_element_from_array(array)
   our_array = ["I", "am", "starting", "to"]
-  our_element = [element]
   our_array[0]
 end
 
 def retrieve_last_element_from_array(array)
   our_array = ["I", "am", "starting", "to"]
-  our_element = [element]
   our_array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
   our_array = ["I", "am", "starting", "to"]
   our_element = [element]
-  our_array[2] = "crying"
+  our_array[2] = "totally"
 end
